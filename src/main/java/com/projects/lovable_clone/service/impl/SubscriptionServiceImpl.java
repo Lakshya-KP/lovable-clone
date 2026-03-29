@@ -1,13 +1,14 @@
-package com.projects.lovable_clone.service;
+package com.projects.lovable_clone.service.impl;
 
 import com.projects.lovable_clone.dto.subscription.CheckoutRequest;
 import com.projects.lovable_clone.dto.subscription.CheckoutResponse;
 import com.projects.lovable_clone.dto.subscription.PortalResponse;
 import com.projects.lovable_clone.dto.subscription.SubscriptionResponse;
+import com.projects.lovable_clone.service.SubscriptionService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SubscriptionServiceImpl implements SubscriptionService{
+public class SubscriptionServiceImpl implements SubscriptionService {
     @Override
     public SubscriptionResponse getCurrentSubscription(Long userId) {
         return null;

@@ -1,4 +1,5 @@
 package com.projects.lovable_clone.entity;
+
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

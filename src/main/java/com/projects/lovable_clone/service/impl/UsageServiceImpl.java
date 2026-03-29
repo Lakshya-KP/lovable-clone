@@ -1,11 +1,14 @@
-package com.projects.lovable_clone.service;
+package com.projects.lovable_clone.service.impl;
 
+import com.projects.lovable_clone.dto.auth.UserProfileResponse;
 import com.projects.lovable_clone.dto.subscription.PlanLimitsResponse;
 import com.projects.lovable_clone.dto.subscription.UsageTodayResponse;
+import com.projects.lovable_clone.service.UsageService;
+import com.projects.lovable_clone.service.UserService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UsageServiceImpl implements UsageService{
+public class UsageServiceImpl implements UsageService {
 
     @Override
     public UsageTodayResponse getTodayUsageOfUser(Long userId) {
