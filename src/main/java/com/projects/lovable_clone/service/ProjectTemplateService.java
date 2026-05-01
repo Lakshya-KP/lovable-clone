@@ -1,4 +1,4 @@
-package com.codingshuttle.projects.lovable_clone.service;
+package com.projects.lovable_clone.service;
 
 public interface ProjectTemplateService {
 
